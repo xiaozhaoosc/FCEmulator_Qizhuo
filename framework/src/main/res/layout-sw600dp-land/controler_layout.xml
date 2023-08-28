@@ -49,7 +49,7 @@
             android:src="@drawable/ic_device_access_volume_muted" />
     </LinearLayout>
 
-    <com.qizhuo.framework.ui.multitouchbutton.MultitouchLayer
+    <site.ken.framework.ui.multitouchbutton.MultitouchLayer
         android:id="@+id/touch_layer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -66,7 +66,7 @@
                 android:orientation="vertical"
                 android:padding="10dp">
 
-                <com.qizhuo.framework.ui.multitouchbutton.MultitouchButton
+                <site.ken.framework.ui.multitouchbutton.MultitouchButton
                     android:id="@+id/button_select"
                     android:layout_width="fill_parent"
                     android:layout_height="60dp"
@@ -78,7 +78,7 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
-                <com.qizhuo.framework.ui.multitouchbutton.MultitouchButton
+                <site.ken.framework.ui.multitouchbutton.MultitouchButton
                     android:id="@+id/button_start"
                     android:layout_width="fill_parent"
                     android:layout_height="60dp"
@@ -91,7 +91,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <com.qizhuo.framework.ui.multitouchbutton.MultitouchImageButton
+            <site.ken.framework.ui.multitouchbutton.MultitouchImageButton
                 android:id="@+id/button_menu"
                 android:layout_width="65dp"
                 android:layout_height="60dp"
@@ -102,7 +102,7 @@
                 android:scaleType="center"
                 android:src="@drawable/ic_menu" />
 
-            <com.qizhuo.framework.ui.multitouchbutton.MultitouchImageButton
+            <site.ken.framework.ui.multitouchbutton.MultitouchImageButton
                 android:id="@+id/button_fast_forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <com.qizhuo.framework.ui.multitouchbutton.MultitouchImageButton
+            <site.ken.framework.ui.multitouchbutton.MultitouchImageButton
                 android:id="@+id/button_a_turbo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
                 android:background="#0000"
                 android:src="@drawable/r_button_a_turbo_selector" />
 
-            <com.qizhuo.framework.ui.multitouchbutton.MultitouchImageButton
+            <site.ken.framework.ui.multitouchbutton.MultitouchImageButton
                 android:id="@+id/button_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                 android:background="#0000"
                 android:src="@drawable/r_button_a_selector" />
 
-            <com.qizhuo.framework.ui.multitouchbutton.MultitouchImageButton
+            <site.ken.framework.ui.multitouchbutton.MultitouchImageButton
                 android:id="@+id/button_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -154,7 +154,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <com.qizhuo.framework.ui.multitouchbutton.MultitouchTwoButton
+                <site.ken.framework.ui.multitouchbutton.MultitouchTwoButton
                     android:id="@+id/button_ab"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
                     multitouch:first_button="@id/button_a"
                     multitouch:second_button="@id/button_b" />
 
-                <com.qizhuo.framework.ui.multitouchbutton.MultitouchImageButton
+                <site.ken.framework.ui.multitouchbutton.MultitouchImageButton
                     android:id="@+id/button_b_turbo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -175,6 +175,6 @@
             </LinearLayout>
         </LinearLayout>
 
-    </com.qizhuo.framework.ui.multitouchbutton.MultitouchLayer>
+    </site.ken.framework.ui.multitouchbutton.MultitouchLayer>
 
 </RelativeLayout>

@@ -1,10 +1,10 @@
 <resources>
 
-    <string name="app_name">FCEmulator</string>
+    <string name="app_name">小霸王游戏机</string>
 
-    <string name="action_general_pref" translatable="false">com.qizhuo.framework.GENERALPREF</string>
-    <string name="action_keyboard_pref" translatable="false">com.qizhuo.framework.KEYBOARDPREF</string>
-    <string name="action_touch_pref" translatable="false">com.qizhuo.framework.TOUCHPREF</string>
-    <string name="action_screen_pref" translatable="false">com.qizhuo.framework.SCREENPREF</string>
-    <string name="action_gallery_page" translatable="false">com.qizhuo.framework.GALLERY</string>
+    <string name="action_general_pref" translatable="false">site.ken.framework.GENERALPREF</string>
+    <string name="action_keyboard_pref" translatable="false">site.ken.framework.KEYBOARDPREF</string>
+    <string name="action_touch_pref" translatable="false">site.ken.framework.TOUCHPREF</string>
+    <string name="action_screen_pref" translatable="false">site.ken.framework.SCREENPREF</string>
+    <string name="action_gallery_page" translatable="false">site.ken.framework.GALLERY</string>
 </resources>

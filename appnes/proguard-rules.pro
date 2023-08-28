@@ -16,16 +16,16 @@
 #   public *;
 #}
 
--keepclasseswithmembers class com.qizhuo.framework.gamedata.dao.entity.GameEntity{*;}
--keepclasseswithmembers class com.qizhuo.framework.ui.gamegallery.ZipRomFile{*;}
--keepclassmembers class * extends com.qizhuo.framework.base.JniEmulator{public ** getInstance();}
+-keepclasseswithmembers class site.ken.framework.gamedata.dao.entity.GameEntity{*;}
+-keepclasseswithmembers class site.ken.framework.ui.gamegallery.ZipRomFile{*;}
+-keepclassmembers class * extends site.ken.framework.base.JniEmulator{public ** getInstance();}
 
--keep class com.qizhuo.framework.ui** { *; }
--keep class com.qizhuo.framework** { *; }
--keep class com.qizhuo.framework.gamedata** { *; }
--keepclassmembers class com.qizhuo.framework.ui** { *; }
--keepclassmembers class com.qizhuo.framework.gamedata** { *; }
--keepclassmembers class com.qizhuo.framework** { *; }
+-keep class site.ken.framework.ui** { *; }
+-keep class site.ken.framework** { *; }
+-keep class site.ken.framework.gamedata** { *; }
+-keepclassmembers class site.ken.framework.ui** { *; }
+-keepclassmembers class site.ken.framework.gamedata** { *; }
+-keepclassmembers class site.ken.framework** { *; }
 
--dontwarn com.qizhuo.framework.**
+-dontwarn site.ken.framework.**
 

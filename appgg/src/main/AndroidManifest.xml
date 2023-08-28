@@ -2,14 +2,15 @@
     package="appgg">
 
     <application
-        android:name="appgg.GGApplication"
+        android:requestLegacyExternalStorage="true"
+        android:name="site.ken.appgg.GGApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
 
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="appgg.GGGalleryActivity"
+            android:name="site.ken.appgg.GGGalleryActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -20,10 +21,10 @@
         </activity>
 
         <activity
-            android:name="appgg.GGEmulatorActivity"
+            android:name="site.ken.appgg.GGEmulatorActivity"
             android:theme="@style/AppTheme.FullScreen" />
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.GeneralPreferenceActivity"
+            android:name="site.ken.framework.ui.preferences.GeneralPreferenceActivity"
             android:label="@string/general_pref"
             android:theme="@style/PrefTheme">
             <intent-filter>
@@ -33,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.KeyboardSettingsActivity"
+            android:name="site.ken.framework.ui.preferences.KeyboardSettingsActivity"
             android:label="@string/key_pref"
             android:theme="@style/PrefTheme">
             <intent-filter>
@@ -43,7 +44,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.TouchControllerSettingsActivity"
+            android:name="site.ken.framework.ui.preferences.TouchControllerSettingsActivity"
             android:label="@string/game_pref"
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
@@ -53,7 +54,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.ScreenViewPortSettingsActivity"
+            android:name="site.ken.framework.ui.preferences.ScreenViewPortSettingsActivity"
             android:label="@string/game_pref"
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>

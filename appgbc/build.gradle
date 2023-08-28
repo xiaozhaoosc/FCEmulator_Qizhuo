@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdk 34
 
     signingConfigs {
         demokey {
@@ -13,9 +13,9 @@ android {
 
     }
     defaultConfig {
-        applicationId "com.qizhuo.appgbc"
+        applicationId "site.ken.appgbc"
         minSdkVersion 19
-        targetSdkVersion 30
+        targetSdk 34
         versionCode 1001
         versionName "1.0.01"
         resConfigs "zh"
@@ -64,6 +64,8 @@ android {
     lintOptions {
         abortOnError false
     }
+    ndkVersion '21.1.6352462'
+    buildToolsVersion '34.0.0'
 }
 
 dependencies {

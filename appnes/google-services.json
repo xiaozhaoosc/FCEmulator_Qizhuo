@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1035149249906:android:ea78e7f68b20fdcbde21eb",
         "android_client_info": {
-          "package_name": "com.qizhuo.fcnes"
+          "package_name": "site.ken.fcnes"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1035149249906-9s1b324ueg5cms580940aseh9k4410s2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.qizhuo.fcnes",
+            "package_name": "site.ken.fcnes",
             "certificate_hash": "a28a9f6ba9d82fa9222a949b8c44ddcaec6f8186"
           }
         },

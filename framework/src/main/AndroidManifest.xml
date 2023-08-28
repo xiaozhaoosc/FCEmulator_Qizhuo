@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.qizhuo.framework">
+    package="site.ken.framework">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:required ="false"/>
@@ -25,7 +25,7 @@
         tools:ignore="UnusedAttribute">
 
         <activity
-            android:name="com.qizhuo.framework.ui.SplashActivity"
+            android:name="site.ken.framework.ui.SplashActivity"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -35,27 +35,27 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.qizhuo.framework.ui.gamegallery.SlotSelectionActivity" />
-        <activity android:name="com.qizhuo.framework.ui.gamegallery.GalleryActivity" />
-        <activity android:name="com.qizhuo.framework.ui.gamegallery.BaseGameGalleryActivity" />
+        <activity android:name="site.ken.framework.ui.gamegallery.SlotSelectionActivity" />
+        <activity android:name="site.ken.framework.ui.gamegallery.GalleryActivity" />
+        <activity android:name="site.ken.framework.ui.gamegallery.BaseGameGalleryActivity" />
 
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.GamePreferenceActivity"
+            android:name="site.ken.framework.ui.preferences.GamePreferenceActivity"
             android:label="@string/game_pref"
             android:theme="@style/PrefTheme" />
 
         <activity
-            android:name="com.qizhuo.framework.ui.cheats.CheatsActivity"
+            android:name="site.ken.framework.ui.cheats.CheatsActivity"
             android:label="Cheats" />
 
-        <activity android:name="com.qizhuo.framework.base.OpenGLTestActivity" />
+        <activity android:name="site.ken.framework.base.OpenGLTestActivity" />
 
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.AboutActivity"
+            android:name="site.ken.framework.ui.preferences.AboutActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name="com.qizhuo.framework.base.RestarterActivity"
+            android:name="site.ken.framework.base.RestarterActivity"
             android:configChanges="orientation|screenSize"
             android:process=":restarter" />
 

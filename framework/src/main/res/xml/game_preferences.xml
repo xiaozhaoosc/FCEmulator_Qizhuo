@@ -4,7 +4,7 @@
         android:key="game_pref_ui_pal_ntsc_switch_category"
 android:enabled="false"
         android:title="@string/pref_video_settings">
-        <com.qizhuo.framework.ui.preferences.ControllableListPreference
+        <site.ken.framework.ui.preferences.ControllableListPreference
             android:key="game_pref_ui_pal_ntsc_switch"
             android:summary="@string/game_pref_ui_pal_ntsc_desc"
             android:title="@string/game_pref_ui_pal_ntsc" />
@@ -24,7 +24,7 @@ android:enabled="false"
                     android:value="true" />
                 <extra
                     android:name=":android:show_fragment"
-                    android:value="com.qizhuo.framework.ui.preferences.GeneralPreferenceFragment" />
+                    android:value="site.ken.framework.ui.preferences.GeneralPreferenceFragment" />
             </intent>
         </Preference>
 

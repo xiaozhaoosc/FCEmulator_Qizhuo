@@ -1,77 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qizhuo.fcnes"
+    package="site.ken.fcnes"
   >
     <uses-permission android:name="android.permission.INTERNET"      android:required ="false"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"      android:required ="false"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"      android:required ="false"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"      android:required ="false"/>
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"      />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<!--    <uses-permission android:name="android.permission.CAMERA" />-->
+<!--    <uses-permission android:name="android.permission.RECORD_AUDIO" />-->
     <application
-        android:name=".NesApplication"
+        android:preserveLegacyExternalStorage="true"
+        android:name="site.ken.size.ken.fcnes.NesApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".NesGalleryActivity"
+            android:name="site.ken.size.ken.fcnes.NesGalleryActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-                <action android:name="com.qizhuo.framework.GALLERY" />
+                <action android:name="site.ken.framework.GALLERY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name=".NesEmulatorActivity"
+            android:name="site.ken.size.ken.fcnes.NesEmulatorActivity"
             android:theme="@style/AppTheme.FullScreen" />
 
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.GeneralPreferenceActivity"
+            android:name="site.ken.framework.ui.preferences.GeneralPreferenceActivity"
             android:label="@string/general_pref"
             android:exported="false"
             android:theme="@style/PrefTheme">
             <intent-filter>
-                <action android:name="com.qizhuo.framework.GENERALPREF" />
+                <action android:name="site.ken.framework.GENERALPREF" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.KeyboardSettingsActivity"
+            android:name="site.ken.framework.ui.preferences.KeyboardSettingsActivity"
             android:label="@string/key_pref"
 
             android:theme="@style/PrefTheme">
             <intent-filter>
-                <action android:name="com.qizhuo.framework.KEYBOARDPREF" />
+                <action android:name="site.ken.framework.KEYBOARDPREF" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.TouchControllerSettingsActivity"
+            android:name="site.ken.framework.ui.preferences.TouchControllerSettingsActivity"
             android:label="@string/game_pref"
 
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
-                <action android:name="com.qizhuo.framework.TOUCHPREF" />
+                <action android:name="site.ken.framework.TOUCHPREF" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name="com.qizhuo.framework.ui.preferences.ScreenViewPortSettingsActivity"
+            android:name="site.ken.framework.ui.preferences.ScreenViewPortSettingsActivity"
             android:label="@string/game_pref"
 
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
-                <action android:name="com.qizhuo.framework.SCREENPREF" />
+                <action android:name="site.ken.framework.SCREENPREF" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

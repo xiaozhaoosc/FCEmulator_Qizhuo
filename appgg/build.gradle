@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdk 34
 
     signingConfigs {
         demokey {
@@ -13,7 +13,7 @@ android {
 
     }
     defaultConfig {
-        applicationId "com.qizhuo.appgg"
+        applicationId "site.ken.appgg"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1001
